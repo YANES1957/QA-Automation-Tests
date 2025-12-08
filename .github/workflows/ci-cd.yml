@@ -1,0 +1,8 @@
+# 4️⃣ Adicionar o arquivo ao git
+git add .github/workflows/ci-cd.yml
+
+# 5️⃣ Dar commit
+git commit -m "Adiciona pipeline CI/CD com JDK 21 e Maven"
+
+# 6️⃣ Enviar para o GitHub
+git push -u origin main
