@@ -1,8 +1,33 @@
-# 4️⃣ Adicionar o arquivo ao git
-git add .github/workflows/ci-cd.yml
+name: CI/CD QA Automation
 
-# 5️⃣ Dar commit
-git commit -m "Adiciona pipeline CI/CD com JDK 21 e Maven"
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-# 6️⃣ Enviar para o GitHub
-git push -u origin main
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar JDK 21
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Cache Maven
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build e Testes com Maven
+        run: mvn clean test
