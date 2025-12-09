@@ -1,7 +1,8 @@
 # 🟢 QA-Automation-Tests
 
 
-![QA Automation](https://media.giphy.com/media/3o7TKC0wz7r9bGqRqw/giphy.gif)  
+![QA-Automation-Tests](https://media.giphy.com/media/3o7TKC0wz7r9bGqRqw/giphy.gif)
+
 
 Bem-vindo ao **QA-Automation-Tests**! Este projeto é um **exemplo completo de automação de testes** com foco em **Qualidade de Software (QA)**, utilizando ferramentas modernas de desenvolvimento e integração contínua.  
 
@@ -11,11 +12,11 @@ Bem-vindo ao **QA-Automation-Tests**! Este projeto é um **exemplo completo de a
 
 **QA-Automation-Tests** é um projeto de **testes automatizados em Java com Maven**, desenvolvido para demonstrar boas práticas de **QA Automation** e **CI/CD**.  
 
-O objetivo principal é:  
-- Demonstrar como estruturar testes automatizados em um projeto Java.  
-- Integrar testes em uma pipeline CI/CD usando **GitHub Actions**.  
-- Mostrar a análise de QA e métricas de qualidade de software.  
-- Auxiliar analistas de QA a validar processos de build e execução de testes.  
+**O objetivo principal é:**  
+- **Demonstrar como estruturar testes automatizados em um projeto Java.**  
+- **Integrar testes em uma pipeline CI/CD usando** **GitHub Actions**.  
+- **Mostrar a análise de QA e métricas de qualidade de software.**  
+- **Auxiliar analistas de QA a validar processos de build e execução de testes.**  
 
 ---
 
@@ -66,12 +67,10 @@ QA-Automation-Tests/
 ├── pom.xml # Configuração Maven  
 └── README.md # Este arquivo  
 
-```yaml
-Copiar código
-✉️ Contato e Feedback
-Se você tiver sugestões, dúvidas ou feedback sobre o projeto, me envie mensagem pelo GitHub:
 
-YANES1957
+🟢 **Contato e Feedback**
+**Se você tiver sugestões, dúvidas ou feedback sobre o projeto, me envie mensagem pelo GitHub:**
+**YANES1957**
 
-💡 Este projeto foi criado para demonstrar QA Automation de ponta, focado em conceitos de testes automatizados, análise de QA e pipelines CI/CD.
+💡 **Este projeto foi criado para demonstrar QA Automation de ponta, focado em conceitos de testes automatizados, análise de QA e pipelines CI/CD.**
 
