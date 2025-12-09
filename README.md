@@ -1,31 +1,6 @@
 # 🟢 QA-Automation-Tests
 
 
-<div align="center">
-  <div style="
-    width: 250px;
-    height: 250px;
-    border: 4px solid #00ff99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: bold;
-    color: #00ff99;
-    animation: spin 6s linear infinite;
-    margin-bottom: 20px;
-  ">
-    QA-AutomationTests
-  </div>
-</div>
-
-<style>
-@keyframes spin {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-</style>
-
 ![QA Automation](https://media.giphy.com/media/3o7TKC0wz7r9bGqRqw/giphy.gif)  
 
 Bem-vindo ao **QA-Automation-Tests**! Este projeto é um **exemplo completo de automação de testes** com foco em **Qualidade de Software (QA)**, utilizando ferramentas modernas de desenvolvimento e integração contínua.  
