@@ -1,6 +1,6 @@
 # 🟢 QA-Automation-Tests
 
-<!-- Quadrado animado -->
+
 <div align="center">
   <div style="
     width: 250px;
