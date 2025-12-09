@@ -1,5 +1,31 @@
 # 🟢 QA-Automation-Tests
 
+<!-- Quadrado animado -->
+<div align="center">
+  <div style="
+    width: 250px;
+    height: 250px;
+    border: 4px solid #00ff99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00ff99;
+    animation: spin 6s linear infinite;
+    margin-bottom: 20px;
+  ">
+    QA-AutomationTests
+  </div>
+</div>
+
+<style>
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
 ![QA Automation](https://media.giphy.com/media/3o7TKC0wz7r9bGqRqw/giphy.gif)  
 
 Bem-vindo ao **QA-Automation-Tests**! Este projeto é um **exemplo completo de automação de testes** com foco em **Qualidade de Software (QA)**, utilizando ferramentas modernas de desenvolvimento e integração contínua.  
@@ -56,28 +82,21 @@ O projeto **QA-Automation-Tests** visa:
 
 ## 📂 Estrutura do Projeto
 
-QA-Automation-Tests/
-│
-├── src/
-│ ├── main/java/ # Código-fonte principal (exemplo)
-│ └── test/java/ # Testes automatizados
-├── .github/workflows/ # Pipeline CI/CD
-├── pom.xml # Configuração Maven
-└── README.md # Este arquivo
+QA-Automation-Tests/  
+│  
+├── src/  
+│ ├── main/java/ # Código-fonte principal (exemplo)  
+│ └── test/java/ # Testes automatizados  
+├── .github/workflows/ # Pipeline CI/CD  
+├── pom.xml # Configuração Maven  
+└── README.md # Este arquivo  
 
-yaml
+```yaml
 Copiar código
+✉️ Contato e Feedback
+Se você tiver sugestões, dúvidas ou feedback sobre o projeto, me envie mensagem pelo GitHub:
 
----
+YANES1957
 
-## ✉️ Contato e Feedback
-
-Se você tiver sugestões, dúvidas ou feedback sobre o projeto, me envie mensagem pelo GitHub:  
-
-[YANES1957](https://github.com/YANES1957)  
-
----
-
-> 💡 **Este projeto foi criado  para demontrar de QA Automation de ponta, focado em conceitos de testes automatizados, análise de QA e pipelines CI/CD**.
-
+💡 Este projeto foi criado para demonstrar QA Automation de ponta, focado em conceitos de testes automatizados, análise de QA e pipelines CI/CD.
 
